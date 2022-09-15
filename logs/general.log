@@ -1,9 +1,0 @@
-2022-09-15 17:22:36,287 -> 1663255356.287185 -> 
-2022-09-15 17:22:36,287 -> 1663255356.2872791 -> NEW RUN
-2022-09-15 17:22:36,287 -> 1663255356.287307 -> 
-2022-09-15 17:22:39,284 -> 1663255359.284456 -> Step duration -> https://www.google.com -> open page / -> 1.156
-2022-09-15 17:22:41,081 -> 1663255361.081764 -> Step duration -> https://www.google.com -> click start_page_images_link -> 1.797
-2022-09-15 17:22:41,152 -> 1663255361.152336 -> Step duration -> https://www.google.com -> enter value Alpine cows in img_page_search_field -> 0.07
-2022-09-15 17:22:43,739 -> 1663255363.739712 -> Step duration -> https://www.google.com -> click img_page_search_button -> 2.587
-2022-09-15 17:22:43,826 -> 1663255363.8263779 -> Step duration -> https://www.google.com -> click img_page_first_result -> 0.086
-2022-09-15 17:22:48,832 -> 1663255368.832693 -> Step duration -> https://www.google.com -> wait 5 -> 5.005
