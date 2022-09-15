@@ -27,13 +27,8 @@ aws_s3_bucket_log = ''
 
 envs = [
     {
-        "title": "Stage1",
-        "url_frontend": "",
-        "url_backend": ""
-    },
-    {
-        "title": "Stage2",
-        "url_frontend": "",
+        "title": "Google",
+        "url_frontend": "https://www.google.com",
         "url_backend": ""
     },
 ]
@@ -58,6 +53,17 @@ selenoids = [
             "enableVNC": bool('false'),
             "enableVideo": bool('false'),
             "videoName": "chrome105.mp4"
+        }
+    },
+{
+        "title": "Chrome106",
+        "browserName": "chrome",
+        "browserVersion": "106.0",
+        "platform": "LINUX",
+        "selenoid:options": {
+            "enableVNC": bool('false'),
+            "enableVideo": bool('false'),
+            "videoName": "chrome106.mp4"
         }
     },
 ]
@@ -105,7 +111,7 @@ def user_update(parameter, value):
         json.dump(config, f)
 
 
-def set_up(env='Stage1', selenoid='0'):
+def set_up(env=envs[0]['title'], selenoid='0'):
     # python3 -c "from share import set_up; set_up('Stage1', 'Chrome104')"
 
     function_title = 'set_up()'

@@ -10,7 +10,7 @@ def open_browser(context):
     # OPEN BROWSER
     if share.user('selenoid_status') == 0:  # selenoid is turned off
         options = Options()
-        options.add_argument('--headless')  # do not open browser during tests
+        # options.add_argument('--headless')  # do not open browser during tests
         context.browser = webdriver.Chrome(
             executable_path='/usr/local/bin/chromedriver',
             options=options,

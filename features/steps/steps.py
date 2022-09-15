@@ -14,13 +14,6 @@ import logging
 import requests
 
 
-# todo actions from old code
-    # select (li or option)
-    # collect text or value to variable
-    # compare variable value with text from a test case
-    # compare value from a page with text from a test case
-
-
 @when('open page {link}')
 def step_impl(context, link):
     context.browser.get(share.user('selected_url_frontend') + link)
