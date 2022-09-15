@@ -1,6 +1,4 @@
-Feature: sign up
-
-  # DELETE THIS FILE
+Feature: google search
 
   Scenario: sample test
     When open page /
